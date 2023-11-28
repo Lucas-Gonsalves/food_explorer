@@ -1,12 +1,12 @@
 export default { 
   COLORS: {
-    LIGTH_100: "#FFFFFF",
-    LIGTH_200: "#FFFAF1",
-    LIGTH_300: "#E1E1E6",
-    LIGTH_400: "#C4C4CC",
-    LIGTH_500: "#7C7C8A",
-    LIGTH_600: "#76797B",
-    LIGTH_700: "#4D585E",
+    LIGHT_100: "#FFFFFF",
+    LIGHT_200: "#FFFAF1",
+    LIGHT_300: "#E1E1E6",
+    LIGHT_400: "#C4C4CC",
+    LIGHT_500: "#7C7C8A",
+    LIGHT_600: "#76797B",
+    LIGHT_700: "#4D585E",
 
     DARK_100: "#000405",
     DARK_200: "#00070A",
@@ -38,10 +38,9 @@ export default {
     MAIN_TITLE: "'Roboto', sans-serif",
     MAIN_TEXT: "'Poppins', sans-serif"
   },
-  
+
 
   FONT_SIZE: {
-    XSMALL: "1rem",
     SMALL: "1.4rem",
     REGULAR: "1.6rem",
     MEDIUM: "2rem",
