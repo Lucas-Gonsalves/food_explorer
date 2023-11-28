@@ -19,7 +19,7 @@ export default createGlobalStyle`
     color: ${({ theme }) => theme.COLORS.LIGHT_100};
 
     font-size: ${({ theme }) => theme.FONT_SIZE.REGULAR};
-    font-family: ${({ theme })};
+    font-family: ${({ theme }) => theme.FONT_FAMILY.MAIN_TEXT};
     font-weight: 400;
   };
 
