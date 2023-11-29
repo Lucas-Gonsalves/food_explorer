@@ -23,8 +23,12 @@ export default createGlobalStyle`
     font-weight: 400;
   };
 
+  h1 {
+    font-family: ${({ theme }) => theme.FONT_FAMILY.MAIN_TITLE};
+  };
 
   body {
+    
     background-color: ${({ theme }) => theme.COLORS.DARK_400};
   };
 
