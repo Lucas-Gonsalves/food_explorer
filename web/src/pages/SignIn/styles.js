@@ -97,6 +97,10 @@ export const Section = styled.section`
     display: none;
   };
 
+  > button {
+    margin: auto;
+  }
+
 
   @media (min-width: ${DEVICE_BREACKPOINTS.MD}) {
     width: 35.6rem;

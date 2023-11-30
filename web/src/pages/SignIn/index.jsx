@@ -1,8 +1,11 @@
 import { Container, Brand, Title, Section, Form } from "./styles";
-import { Envelope, Lock } from "@phosphor-icons/react";
+
+import { Envelope, Lock, ArrowLeft } from "@phosphor-icons/react";
 import Logo from "../../assets/logo.svg"
 
 import { Input } from "../../Components/Input";
+import { Button } from "../../Components/Button";
+import { ButtonText } from "../../Components/ButtonText";
 
 
 export function SignIn() {
@@ -22,10 +25,10 @@ export function SignIn() {
           <h2>Logar</h2>
         </Title>
         
-
     
         <Section>
           <h3>Faça seu login</h3>
+          
           <Form>
            
             <Input 
@@ -42,8 +45,17 @@ export function SignIn() {
               autoComplete="current-password"
             />
 
-            <button/>
+            <Button
+              title="Entrar"
+            />
+
           </Form>
+
+          <ButtonText 
+            title="Criar uma conta" 
+            icon={ArrowLeft}
+          />
+
         </Section>
 
 

@@ -32,6 +32,9 @@ export default createGlobalStyle`
     background-color: ${({ theme }) => theme.COLORS.DARK_400};
   };
 
+  button {
+    transition: .5s;
+  }
 
   button:hover {
     transition: .5s;
